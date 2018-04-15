@@ -9,23 +9,23 @@ int main()
 	cin >> number;
 	switch (number)
 	{
-	case 6: cout << "Шестерка" << endl;
+	case 6: cout << "Six" << endl;
 		break;
-	case 7: cout << "Семерка" << endl;
+	case 7: cout << "Seven" << endl;
 		break;
-	case 8: cout << "Восьмерка" << endl;
+	case 8: cout << "Eight" << endl;
 		break;
-	case 9: cout << "Девятка" << endl;
+	case 9: cout << "Nine" << endl;
 		break;
-	case 10: cout << "Десятка" << endl;
+	case 10: cout << "Ten" << endl;
 		break;
-	case 11: cout << "Валет" << endl;
+	case 11: cout << "Jack" << endl;
 		break;
-	case 12: cout << "Дама" << endl;
+	case 12: cout << "Queen" << endl;
 		break;
-	case 13: cout << "Король" << endl;
+	case 13: cout << "King" << endl;
 		break;
-	case 14: cout << "Туз" << endl;
+	case 14: cout << "Ace" << endl;
 		break;
 	}
 	system("Pause");
