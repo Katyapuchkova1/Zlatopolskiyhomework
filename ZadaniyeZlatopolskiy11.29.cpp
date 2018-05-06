@@ -14,7 +14,7 @@ int main()
 	{
 		cout << "Write element of the massiv" << endl;
 		cin >> number;
-		number = mas[i];
+		mas[i] = number;
 	}
 
 	for (int i = 0; i <= quontity - 1; i++)
