@@ -5,11 +5,10 @@ using namespace std;
 
 int main()
 {
-	int number, quontity;
+	int number;
 	int s = 0;
 	int s2 = 0;
-	cout << "Write quontity of the elements" << endl;
-	cin >> quontity;
+	int const quontity = 5;
 	int mas [ quontity ];
 	for (int i = 0; i <= quontity - 1; i++)
 	{
@@ -30,7 +29,7 @@ int main()
 		cout << "The sum of elements is even" << endl;
 	}
 
-	else if (s % 2 != 0)
+	if (s % 2 != 0)
 
 	{
 		cout << "The sum of elements is odd" << endl;
@@ -42,7 +41,7 @@ int main()
 		cout << "The sum of square elements is 5-figure number" << endl;
 	}
 
-	else if (s2 < 10000 && s2 > 99999)
+	if (s2 < 10000 && s2 > 99999)
 
 	{
 		cout << "The sum of square elements is not 5=figure number" << endl;
