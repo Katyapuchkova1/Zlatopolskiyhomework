@@ -5,17 +5,16 @@ using namespace std;
 
 int main()
 {
-	int b, a, c, quontity, number;
+	int b, a, c, number;
 	cout << "Write quontity of the elements" << endl;
-	cin >> quontity;
-	int mas[quontity];
+	int const quontity = 5;
+	int mas [quontity];
 	cout << "Write b" << endl;
 	cin >> b;
 	cout << "Write a" << endl;
 	cin >> a;
 	cout << "Write c" << endl;
 	cin >> c;
-	int mas[quontity];
 	for (int i = 0; i <= quontity - 1; i++)
 	{
 		cout << "Write element of the massiv" << endl;
@@ -48,7 +47,7 @@ int main()
 	for (int i = 0; i <= quontity - 1; i++)
 
 	{
-		cout << mas[i];
+		cout << mas[i] << endl;
 	}
 
 	system("Pause");
