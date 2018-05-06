@@ -8,15 +8,15 @@ int main()
 
 	int number, lastage;
 	int agemax = 2028;
-	int mas[4];
-	for (int i = 0; i <= 4 - 1; i++)
+	int mas[30];
+	for (int i = 0; i <= 30 - 1; i++)
 	{
 		cout << "Write element of the massiv" << endl;
 		cin >> number;
 		mas[i] = number;
 	}
 
-	for (int i = 0; i <= 4 - 1; i+=1)
+	for (int i = 0; i <= 30 - 1; i+=1)
 	{
 
 		if (mas[i] < agemax)
