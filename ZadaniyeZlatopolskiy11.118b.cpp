@@ -8,7 +8,7 @@ int main()
 
 	int number, lastage;
 	int agemax = 2019;
-	int mas[4];
+	int mas[30];
 	for (int i = 0; i <= 3; i++)
 	{
 		cout << "Write element of the massiv" << endl;
