@@ -13,7 +13,7 @@ int main()
 	{
 		cout << "Write element of the massiv" << endl;
 		cin >> number;
-		number = mas[i];
+		mas[i] = number;
 	}
 
 	for (int i = 0; i <= 3; i++)
@@ -22,6 +22,12 @@ int main()
 		if (mas[i] < agemax)
 		{
 			agemax = mas[i];
+			lastage = i;
+		}
+		
+		else if (mas[i] == agemax)
+			
+		{
 			lastage = i;
 		}
 	}
