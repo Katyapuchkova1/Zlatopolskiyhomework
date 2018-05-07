@@ -29,7 +29,7 @@ int main()
 		cout << "The sum of elements is even" << endl;
 	}
 
-	if (s % 2 != 0)
+	else if (s % 2 != 0)
 
 	{
 		cout << "The sum of elements is odd" << endl;
@@ -41,7 +41,7 @@ int main()
 		cout << "The sum of square elements is 5-figure number" << endl;
 	}
 
-	if (s2 < 10000 && s2 > 99999)
+	else if (s2 < 10000 && s2 > 99999)
 
 	{
 		cout << "The sum of square elements is not 5=figure number" << endl;
