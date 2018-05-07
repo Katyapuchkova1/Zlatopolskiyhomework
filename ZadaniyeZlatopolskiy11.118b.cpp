@@ -19,15 +19,9 @@ int main()
 	for (int i = 0; i <= 3; i++)
 	{
 
-		if (mas[i] < agemax)
+		if (mas[i] <= agemax)
 		{
 			agemax = mas[i];
-			lastage = i;
-		}
-
-		else if (agemax == mas [i])
-		
-		{
 			lastage = i;
 		}
 	}
