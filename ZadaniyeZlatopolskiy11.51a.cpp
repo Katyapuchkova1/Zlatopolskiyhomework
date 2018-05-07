@@ -29,7 +29,7 @@ int main()
 			mas[i] = mas[i] - b;
 		}
 
-		if (mas[i] < 0)
+		else if (mas[i] < 0)
 
 		{
 			mas[i] = mas[i] + mas[a1];
